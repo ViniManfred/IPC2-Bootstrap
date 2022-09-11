@@ -1,0 +1,55 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login</title>
+        <link href="bootstrap.min.css" rel="stylesheet">
+        <style>
+            body{
+                background: #0d6efd;
+                background: linear-gradient(to left,#fff,#0d6efd);
+            }
+            .bg{
+                background-image: url(img/Ingeniería-de-Sistemas-1200x628.jpg);
+                background-position: center center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col bg"></div>
+                <div class="col">
+                    <div class="text-end">
+                        <img src="img/fiusac_negro.png" width="48" alt="">
+                    </div>
+                    <h2 class="fw-bolder text-center py-5">Bienvenido Estudiante</h2>
+                    <form action="#">
+                        <div class="mb-4">
+                            <label for="email" class="form-label">Correo Electrónico</label>
+                            <input type="email" class="form-control" name="email">
+                        </div>
+                        <div class="mb-4">
+                            <label for="password" class="form-label">Contraseña</label>
+                            <input type="password" class="form-control" name="password">
+                        </div>
+                        <div class="mb-4 form-check">
+                            <input type="checkbox" name="connected" class="form-check-input" id="">
+                            <label for="connected" class="form-check-label">Mantenerme conectado</label>
+                        </div>
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-primary">Iniciar Sesión</button>
+                        </div>
+                        <div class="my-3">
+                            <span>No tienes una cuenta?   <a href="#">Regístrate</a></span> <br>
+                            <span>Perdiste tu contraseña?  <a href="#">Recuperar contraseña</a></span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <script src="bootstrap.bundle.min.js"> </script>
+    </body>
+    </html>
